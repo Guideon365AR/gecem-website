@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run copy-cms",
-    "copy-cms": "npx shx cp -r admin dist/",
+    "build": "vite build",
+    "postbuild": "npx shx cp -r admin dist/",
     "lint": "eslint .",
     "preview": "vite preview"
   },

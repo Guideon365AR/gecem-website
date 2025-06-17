@@ -10,7 +10,32 @@
   port = 5173
 
 [[redirects]]
-  from = "/*"
+  from = "/reuniones/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/proyectos/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/jornadas/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/recursos/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/casos/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/capacitaciones/*"
   to = "/index.html"
   status = 200
 

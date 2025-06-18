@@ -105,6 +105,35 @@ const Jornadas: React.FC = () => {
                   Aplicación de metodologías Lean para optimizar procesos administrativos y reducir desperdicios en el sector público.
                 </p>
               </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h3 className="text-xl font-semibold text-slate-800 mb-2">
+                      "Metodología RAAKS: Diseñando soluciones efectivas y sostenibles"
+                    </h3>
+                    <p className="text-slate-600 mb-2">
+                      <strong>Entrevistado:</strong> Ing. Agr. M Sc. Adrián Gargicevich
+                    </p>
+                    <div className="flex items-center gap-4 text-sm text-slate-500">
+                      <div className="flex items-center gap-1">
+                        <Calendar className="w-4 h-4" />
+                        24 de Junio, 2025
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Users className="w-4 h-4" />
+                        Modalidad Híbrida
+                      </div>
+                    </div>
+                  </div>
+                  <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                    Programada
+                  </span>
+                </div>
+                <p className="text-slate-600 mb-4">
+                  RAAKS es una técnica de investigación que te va a aportar herramientas para fomentar la innovación participativa en diversos sectores, identificando divergencias y convergencias para mejorar la comunicación y el aprendizaje colaborativo.
+                </p>
+              </div>
             </div>
           </div>
 

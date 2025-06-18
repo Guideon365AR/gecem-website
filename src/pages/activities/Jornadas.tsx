@@ -122,7 +122,7 @@ const Jornadas: React.FC = () => {
                       </div>
                       <div className="flex items-center gap-1">
                         <Users className="w-4 h-4" />
-                        Modalidad Híbrida
+                        Online
                       </div>
                     </div>
                   </div>

@@ -27,7 +27,7 @@ const Jornadas: React.FC = () => {
             <div className="bg-primary-100 text-primary-600 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
               <Video className="w-10 h-10" />
             </div>
-            <h1 className="text-4xl font-bold text-slate-800 mb-4">Jornadas con Expertos</h1>
+            <h1 className="text-4xl font-bold text-slate-800 mb-4">Ciclo de Entrevistas</h1>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
               Sesiones especializadas con invitados expertos en gestión de la calidad, mejora continua y temas relacionados.
             </p>
@@ -35,9 +35,9 @@ const Jornadas: React.FC = () => {
 
           {/* Overview */}
           <div className="bg-white p-8 rounded-lg shadow-md mb-8">
-            <h2 className="text-2xl font-bold text-slate-800 mb-4">¿Qué son las Jornadas con Expertos?</h2>
+            <h2 className="text-2xl font-bold text-slate-800 mb-4">¿Qué es el Ciclo de Entrevistas?</h2>
             <p className="text-slate-600 mb-4">
-              Las Jornadas con Expertos son eventos especiales donde invitamos a profesionales reconocidos en el campo de la gestión de calidad, auditores certificados, consultores especializados y académicos destacados para compartir sus conocimientos y experiencias.
+              El Ciclo de Entrevistas es una serie de eventos especiales donde invitamos a profesionales reconocidos en el campo de la gestión de calidad, auditores certificados, consultores especializados y académicos destacados para compartir sus conocimientos y experiencias.
             </p>
             <p className="text-slate-600">
               Estos encuentros brindan la oportunidad de acceder a conocimiento especializado, conocer las últimas tendencias del sector y establecer contactos con referentes en el área.
@@ -46,7 +46,7 @@ const Jornadas: React.FC = () => {
 
           {/* Upcoming Events */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-slate-800 mb-6">Próximas Jornadas</h2>
+            <h2 className="text-2xl font-bold text-slate-800 mb-6">Próximas Entrevistas</h2>
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-primary-600">
                 <div className="flex items-start justify-between mb-4">
@@ -55,7 +55,7 @@ const Jornadas: React.FC = () => {
                       "ISO 9001:2015 - Implementación Práctica en Universidades"
                     </h3>
                     <p className="text-slate-600 mb-2">
-                      <strong>Expositor:</strong> Dra. María Elena Rodríguez - Auditora Líder ISO 9001
+                      <strong>Entrevistado:</strong> Dra. María Elena Rodríguez - Auditora Líder ISO 9001
                     </p>
                     <div className="flex items-center gap-4 text-sm text-slate-500">
                       <div className="flex items-center gap-1">
@@ -73,7 +73,7 @@ const Jornadas: React.FC = () => {
                   </span>
                 </div>
                 <p className="text-slate-600 mb-4">
-                  Jornada práctica sobre la implementación de sistemas de gestión de calidad ISO 9001:2015 específicamente adaptados al contexto universitario.
+                  Entrevista práctica sobre la implementación de sistemas de gestión de calidad ISO 9001:2015 específicamente adaptados al contexto universitario.
                 </p>
               </div>
 
@@ -84,7 +84,7 @@ const Jornadas: React.FC = () => {
                       "Lean Management en Administración Pública"
                     </h3>
                     <p className="text-slate-600 mb-2">
-                      <strong>Expositor:</strong> Mg. Carlos Fernández - Consultor en Mejora Continua
+                      <strong>Entrevistado:</strong> Mg. Carlos Fernández - Consultor en Mejora Continua
                     </p>
                     <div className="flex items-center gap-4 text-sm text-slate-500">
                       <div className="flex items-center gap-1">
@@ -110,7 +110,7 @@ const Jornadas: React.FC = () => {
 
           {/* Past Events */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-slate-800 mb-6">Jornadas Anteriores</h2>
+            <h2 className="text-2xl font-bold text-slate-800 mb-6">Entrevistas Anteriores</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="flex items-center gap-2 mb-3">
@@ -120,7 +120,7 @@ const Jornadas: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-slate-600 text-sm mb-2">
-                  <strong>Expositor:</strong> Lic. Ana Martínez - IRAM
+                  <strong>Entrevistado:</strong> Lic. Ana Martínez - IRAM
                 </p>
                 <p className="text-slate-600 text-sm mb-3">Febrero 2024</p>
                 <p className="text-slate-600 text-sm">
@@ -136,7 +136,7 @@ const Jornadas: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-slate-600 text-sm mb-2">
-                  <strong>Expositor:</strong> Dr. Roberto Silva - UBA
+                  <strong>Entrevistado:</strong> Dr. Roberto Silva - UBA
                 </p>
                 <p className="text-slate-600 text-sm mb-3">Enero 2024</p>
                 <p className="text-slate-600 text-sm">
@@ -152,7 +152,7 @@ const Jornadas: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-slate-600 text-sm mb-2">
-                  <strong>Expositor:</strong> Mg. Laura Pérez - UNLP
+                  <strong>Entrevistado:</strong> Mg. Laura Pérez - UNLP
                 </p>
                 <p className="text-slate-600 text-sm mb-3">Diciembre 2023</p>
                 <p className="text-slate-600 text-sm">
@@ -168,7 +168,7 @@ const Jornadas: React.FC = () => {
                   </h3>
                 </div>
                 <p className="text-slate-600 text-sm mb-2">
-                  <strong>Expositor:</strong> Lic. Miguel Torres - Consultor
+                  <strong>Entrevistado:</strong> Lic. Miguel Torres - Consultor
                 </p>
                 <p className="text-slate-600 text-sm mb-3">Noviembre 2023</p>
                 <p className="text-slate-600 text-sm">
@@ -181,11 +181,11 @@ const Jornadas: React.FC = () => {
           {/* Format and Benefits */}
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Formato de las Jornadas</h2>
+              <h2 className="text-2xl font-bold text-slate-800 mb-4">Formato de las Entrevistas</h2>
               <ul className="space-y-3 text-slate-600">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary-600 rounded-full mt-2 flex-shrink-0"></div>
-                  Presentación magistral del experto (60-90 min)
+                  Entrevista en profundidad con el especialista (60-90 min)
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary-600 rounded-full mt-2 flex-shrink-0"></div>
@@ -235,9 +235,9 @@ const Jornadas: React.FC = () => {
 
           {/* CTA */}
           <div className="text-center bg-primary-50 p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-slate-800 mb-4">¿Quieres participar en nuestras jornadas?</h2>
+            <h2 className="text-2xl font-bold text-slate-800 mb-4">¿Quieres participar en nuestro ciclo de entrevistas?</h2>
             <p className="text-slate-600 mb-6">
-              Mantente informado sobre nuestras próximas jornadas con expertos y no te pierdas la oportunidad de aprender de los mejores.
+              Mantente informado sobre nuestras próximas entrevistas con expertos y no te pierdas la oportunidad de aprender de los mejores.
             </p>
             <a 
               href="/#contacto" 

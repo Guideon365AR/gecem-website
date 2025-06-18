@@ -17,7 +17,7 @@ const Activities: React.FC = () => {
     },
     {
       icon: Video,
-      title: 'Jornadas con Expertos',
+      title: 'Ciclo de Entrevistas',
       description: 'Sesiones con invitados especialistas en gestión de la calidad.',
       link: '/jornadas'
     },
